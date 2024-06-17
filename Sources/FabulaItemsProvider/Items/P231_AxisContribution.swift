@@ -22,47 +22,47 @@ public struct P231_AxisContribution: View {
         VStack {
             Spacer()
 
-            AxisContribution(constant: constant, source: getDates()) { indexSet, data in
-                if rowImageName.isEmpty {
-                    defaultBackground
-                }else {
-                    background
-                }
-            } foreground: { indexSet, data in
-                if rowImageName.isEmpty {
-                    defaultForeground
-                }else {
-                    foreground
-                }
-            }
-            .padding(8)
-            .background(
-                RoundedRectangle(cornerRadius: 12)
-                    .stroke(lineWidth: 1)
-                    .fill(Color.fabulaFore1.opacity(0.6))
-                    .opacity(0.5)
-            )
-            .frame(maxWidth: 833, maxHeight: 833)
-            
-            Spacer()
-            Picker("", selection: $rowImageName) {
-                Text("Default").tag("")
-                Image(systemName: "heart.fill").tag("heart.fill")
-                Image(systemName: "umbrella.fill").tag("umbrella.fill")
-                Image(systemName: "flame.fill").tag("flame.fill")
-                Image(systemName: "seal.fill").tag("seal.fill")
-            }
-            .pickerStyle(.segmented)
-            HStack {
-                Text("Row Size : ")
-                Slider(value: $rowSize, in: 11...40)
-                Text("\(rowSize, specifier: "%.2f")")
-            }
-            Picker("", selection: $constant.axisMode) {
-                Text("Horizontal").tag(ACAxisMode.horizontal)
-                Text("Vertical").tag(ACAxisMode.vertical)
-            }
-            .pickerStyle(.segmented)
+//            AxisContribution(constant: constant, source: getDates()) { indexSet, data in
+//                if rowImageName.isEmpty {
+//                    defaultBackground
+//                }else {
+//                    background
+//                }
+//            } foreground: { indexSet, data in
+//                if rowImageName.isEmpty {
+//                    defaultForeground
+//                }else {
+//                    foreground
+//                }
+//            }
+//            .padding(8)
+//            .background(
+//                RoundedRectangle(cornerRadius: 12)
+//                    .stroke(lineWidth: 1)
+//                    .fill(Color.fabulaFore1.opacity(0.6))
+//                    .opacity(0.5)
+//            )
+//            .frame(maxWidth: 833, maxHeight: 833)
+//            
+//            Spacer()
+//            Picker("", selection: $rowImageName) {
+//                Text("Default").tag("")
+//                Image(systemName: "heart.fill").tag("heart.fill")
+//                Image(systemName: "umbrella.fill").tag("umbrella.fill")
+//                Image(systemName: "flame.fill").tag("flame.fill")
+//                Image(systemName: "seal.fill").tag("seal.fill")
+//            }
+//            .pickerStyle(.segmented)
+//            HStack {
+//                Text("Row Size : ")
+//                Slider(value: $rowSize, in: 11...40)
+//                Text("\(rowSize, specifier: "%.2f")")
+//            }
+//            Picker("", selection: $constant.axisMode) {
+//                Text("Horizontal").tag(ACAxisMode.horizontal)
+//                Text("Vertical").tag(ACAxisMode.vertical)
+//            }
+//            .pickerStyle(.segmented)
         }
         .padding()
     }
