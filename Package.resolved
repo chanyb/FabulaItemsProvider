@@ -1,0 +1,133 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f455c2975872ccd2d9c81594c658af65716e9b9a",
+          "version": "5.9.1"
+        }
+      },
+      {
+        "package": "AnimateText",
+        "repositoryURL": "https://github.com/jasudev/AnimateText.git",
+        "state": {
+          "branch": "main",
+          "revision": "0f478496bb3d8931ae3316c140dfef786434d68d",
+          "version": null
+        }
+      },
+      {
+        "package": "AxisContribution",
+        "repositoryURL": "https://github.com/jasudev/AxisContribution.git",
+        "state": {
+          "branch": "main",
+          "revision": "219ca810cd7ea40fea2813bc313c2239133c61f3",
+          "version": null
+        }
+      },
+      {
+        "package": "AxisRatingBar",
+        "repositoryURL": "https://github.com/jasudev/AxisRatingBar.git",
+        "state": {
+          "branch": "main",
+          "revision": "edc48620a2cd9f6b3cec0642ebcac4a6cf6d0e56",
+          "version": null
+        }
+      },
+      {
+        "package": "AxisSegmentedView",
+        "repositoryURL": "https://github.com/jasudev/AxisSegmentedView.git",
+        "state": {
+          "branch": "main",
+          "revision": "44e42f5766fe3fd1dda6b1a3f2047127f9e51b2e",
+          "version": null
+        }
+      },
+      {
+        "package": "AxisSheet",
+        "repositoryURL": "https://github.com/jasudev/AxisSheet.git",
+        "state": {
+          "branch": "main",
+          "revision": "e577c37a7ee184f7018c85f0bf35baccbaa4c950",
+          "version": null
+        }
+      },
+      {
+        "package": "AxisTabView",
+        "repositoryURL": "https://github.com/jasudev/AxisTabView.git",
+        "state": {
+          "branch": "main",
+          "revision": "a96f3ad288a733f1c774ea57bad8be87b45aa56e",
+          "version": null
+        }
+      },
+      {
+        "package": "AxisTooltip",
+        "repositoryURL": "https://github.com/jasudev/AxisTooltip.git",
+        "state": {
+          "branch": "main",
+          "revision": "2c83b754b4e257a86a03a29f199b15a48410be48",
+          "version": null
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-spm.git",
+        "state": {
+          "branch": "main",
+          "revision": "1d29eccc24cc8b75bff9f6804155112c0ffc9605",
+          "version": null
+        }
+      },
+      {
+        "package": "LottieUI",
+        "repositoryURL": "https://github.com/jasudev/LottieUI.git",
+        "state": {
+          "branch": "main",
+          "revision": "0cd5b54a1c8467b19c01f56395aec179087b62e2",
+          "version": null
+        }
+      },
+      {
+        "package": "Scroller",
+        "repositoryURL": "https://github.com/jasudev/Scroller.git",
+        "state": {
+          "branch": "main",
+          "revision": "a825313309c2fc6964b50edc83867370ad08bb47",
+          "version": null
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "b8523c1642f3c142b06dd98443ea7c48343a4dfd",
+          "version": "5.19.3"
+        }
+      },
+      {
+        "package": "SDWebImageSwiftUI",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+        "state": {
+          "branch": null,
+          "revision": "53573d6dd017e354c0e7d8f1c86b77ef1383c996",
+          "version": "2.2.7"
+        }
+      },
+      {
+        "package": "UnsplashProvider",
+        "repositoryURL": "https://github.com/jasudev/UnsplashProvider.git",
+        "state": {
+          "branch": "main",
+          "revision": "11e624bcc2d8c402fa25695fc34699419c3283d1",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
